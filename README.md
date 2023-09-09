@@ -1,27 +1,12 @@
-# CityLifeQuality
+# City Life Quality
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Application that displays information about the quality of life in cities using the external Teleport service.
 
-## Development server
+## Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The application should consist of a simple textbox that allows the use to search cities by name.
 
-## Code scaffolding
+Once the user clicks on the search button, the application should call the Teleport API to retrieve the data to display on the page
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+After receiving the data from the external service, the application should display the information: categories, description and city score
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
