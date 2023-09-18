@@ -1,1 +1,22 @@
-<p>city-search works!</p>
+<div class="search-wrapper">
+    <form #cityForm="ngForm" (ngSubmit)="searchCity(city.value);" class="form">
+        <label for="city" class="label">Look for cities</label>
+        <div class="search-interaction">
+            <input
+            class="input"
+            type="text"
+            id="city"
+            name="city"
+            #city
+            ngModule>
+            <button type="submit" class="btn">Search</button>
+        </div>
+    </form>
+    
+    <app-city-detail
+    [cityScore]="cityScore"
+    [citySummary]="citySummary"
+    [cityScoreCategories]="cityScoreCategories"
+    [error]="error"></app-city-detail>
+</div>
+

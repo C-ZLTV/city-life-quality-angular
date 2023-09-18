@@ -1,1 +1,17 @@
-<p>city-detail works!</p>
+<div>
+    <div>{{error}}</div>
+    <div *ngIf="!error">
+        <div [innerHTML]="citySummary"></div>
+        <p>City Score: {{cityScore}}</p>
+        
+        <div>
+            <ul class="categories">
+                <li *ngFor="let category of cityScoreCategories" class="category">
+                    <div>{{category.name}}: 
+                        {{category.score_out_of_10 | number:'1.0-0'}}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.category {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (min-width: 720px){
+    .categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+    }
+}
