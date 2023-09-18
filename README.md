@@ -10,3 +10,6 @@ Once the user clicks on the search button, the application should call the Telep
 
 After receiving the data from the external service, the application should display the information: categories, description and city score
 
+![Homepage](./src/assets/homepage.png)
+![City Search](./src/assets/city-search.png)
+
